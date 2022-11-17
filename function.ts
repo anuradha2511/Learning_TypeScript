@@ -59,7 +59,10 @@ var hello = (name:string): string => {
 console.log(hello("AngularBatch4"));
 
 
-var multiple = (num1:number, num2:number) : number => {
+var multiply = (num1:number, num2:number) : number => {
     return num1 * num2;
 };
-console.log(multiple(2, 7));
+console.log(multiply(2, 7));
+
+
+

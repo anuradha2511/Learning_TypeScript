@@ -6,8 +6,8 @@ var physics = prompt("Enter your physics marks");
 var num2 = parseInt(physics)
 var chem = prompt("Enter chemistry marks");
 var num3 = parseInt(chem)
-console.log("Your subject marks are");
 
+console.log("Your subject marks are");
 console.log("Maths = " , math);
 console.log("Physics = ", physics);
 console.log("Chemistry = ", chem);
