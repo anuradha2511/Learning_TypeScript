@@ -36,16 +36,16 @@ var factorial = function () {
     var resu = 1;
     for (var index = 0; index < nums.length; index++) {
         console.log(nums[index]);
-        resu *= nums[index];
+        resu += nums[index];
     }
     return resu;
 };
-console.log(factorial(4, 5, 6, 7));
+console.log(factorial(2, 3, 4, 5));
 var hello = function (name) {
     return "Hello" + name;
 };
 console.log(hello("AngularBatch4"));
-var multiple = function (num1, num2) {
+var multiply = function (num1, num2) {
     return num1 * num2;
 };
-console.log(multiple(2, 7));
+console.log(multiply(2, 7));

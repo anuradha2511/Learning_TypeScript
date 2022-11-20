@@ -24,5 +24,7 @@ var myCar: ICar = {
     seats: 4,
     auto: false
 }
+console.log(myCar);
+
 
 // Find out one example which will implement interface.

@@ -45,13 +45,14 @@ var factorial = function(...nums)
 for (let index = 0; index < nums.length; index++)
  {
         console.log(nums[index]);
-        resu *= nums[index]
+        resu += nums[index]
     
 }
 return resu
 }
-console.log(factorial(4, 5, 6, 7));
+console.log(factorial(2, 3, 4, 5));
 
+console.log("--------------------");
 
 var hello = (name:string): string => {
     return "Hello" + name;
